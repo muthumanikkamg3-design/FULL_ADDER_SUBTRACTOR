@@ -39,8 +39,45 @@ Borrow out = A'Bin + A'B + BBin
 **Truthtable**
 
 **Procedure**
-
 Write the detailed procedure here
+Full Adder:
+Open Quartus software.
+
+Create a new project.
+
+Open a New Schematic file.
+
+Place the required XOR, AND, OR gates from the library.
+
+Connect them to form the Full Adder circuit.
+
+Add input pins (A, B, Cin) and output pins (Sum, Carry).
+
+Save and Compile the project.
+
+Open Simulation Waveform.
+
+Give input values (0/1) and run simulation.
+
+Observe Sum and Carry outputs.
+Full Subtractor:
+Open Quartus and start a new project.
+
+Create a New Schematic file.
+
+Insert XOR, AND, OR gates from the library.
+
+Connect them to form the Full Subtractor circuit.
+
+Add inputs (A, B, Bin) and outputs (Difference, Borrow).
+
+Save and Compile the design.
+
+Open Simulation Waveform.
+
+Apply input combinations (0/1) and run simulation.
+
+Check the Difference and Borrow outputs.
 
 **Program:**
 
